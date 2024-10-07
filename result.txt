@@ -1,0 +1,32 @@
+Pattern 1
+Process 1 beginning
+Process 1 creating Process 3
+Process 3 beginning
+Process 1 creating Process 2
+Process 1 creating Process 4
+Process 4 beginning
+Process 2 beginning
+Process 1 creating Process 5
+Process 5 beginning
+Process 4 exiting
+Process 5 exiting
+Process 2 exiting
+Process 3 exiting
+Process 1 exiting
+
+Pattern 2
+Process 1 beginning
+Process 1 creating Process 2
+Process 2 beginning
+Process 2 creating Process 3
+Process 3 beginning
+Process 3 creating Process 4
+Process 4 beginning
+Process 4 creating Process 5
+Process 5 beginning
+Process 5 exiting
+Process 4 exiting
+Process 3 exiting
+Process 2 exiting
+Process 1 exiting
+
